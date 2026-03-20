@@ -56,32 +56,32 @@ That missing **₹300** makes a big difference.
 
 ## ⚙️ How It Works (Simple Flow)
 
-### 1️⃣ Sign Up & Risk Profiling
+### 1. Sign Up & Risk Profiling
 We calculate a **Gig Risk Score** based on:
 - Weather conditions  
 - Location  
 - Working patterns  
 
-### 2️⃣ Weekly Insurance Plan
+### 2. Weekly Insurance Plan
 Workers get a simple weekly premium plan that fits their earning cycle.
 
-### 3️⃣ Real-Time Monitoring
+### 3. Real-Time Monitoring
 Our system continuously tracks:
 - Weather conditions  
 - Air quality  
 - Traffic (mock data)  
 - Platform activity  
 
-### 4️⃣ Disruption Detection
+### 4. Disruption Detection
 When conditions cross certain thresholds (e.g., heavy rain, high AQI), the system identifies a disruption.
 
-### 5️⃣ Income Prediction & Loss Calculation
+### 5. Income Prediction & Loss Calculation
 We use AI to estimate:  
 > *“How much the worker should have earned today”*  
 
 Then compare it with actual earnings.
 
-### 6️⃣ Automatic Claim & Payout
+### 6. Automatic Claim & Payout
 If a loss is detected:
 - Claim is triggered automatically  
 - Fraud checks are performed  
@@ -93,27 +93,31 @@ If a loss is detected:
 
 We use a combination of AI models, each solving a specific problem:
 
-### 🔹 Risk & Pricing
+### 1. Risk & Pricing
 - **Random Forest** → risk score & weekly premium  
 
-### 🔹 Disruption Prediction
+### 2. Disruption Prediction
 - **Logistic Regression** → probability of disruptions  
 
-### 🔹 Income Forecasting
+### 3. Income Forecasting
 - **Prophet (Time-Series Model)** →  
   - Predict expected earnings  
   - Capture daily & weekly patterns  
 
-### 🔹 Loss Calculation
+### 4. Loss Calculation
 - **Linear Regression** → estimate income differences  
 
-### 🔹 Fraud Detection
+### 5. Fraud Detection
 - **Isolation Forest** →  
   - Detect unusual claim behavior  
   - Identify suspicious activity  
 
 ---
+##  Architecture Diagram
 
+![WhatsApp Image 2026-03-20 at 7 19 13 PM](https://github.com/user-attachments/assets/df7c3c35-6940-4585-b0ea-cbdc91af8fb2)
+
+---
 ## 🛠️ Tech Stack
 
 We chose technologies that are practical, fast to build, and scalable.
@@ -161,17 +165,17 @@ We designed GigShield to be **realistic and buildable**, not just theoretical.
 
 We didn’t just build an insurance system — we built something smarter.
 
-### 🔹 Predictive, Not Just Reactive
+### 1. Predictive, Not Just Reactive
 We don’t just compensate losses — we help workers **anticipate disruptions**.
 
-### 🔹 Safe Working Window Suggestions
+### 2. Safe Working Window Suggestions
 We recommend the **best times to work** to avoid income loss.
 
-### 🔹 Disruption Heatmaps
+### 3. Disruption Heatmaps
 Workers can identify **high-risk areas** and plan accordingly.
 
-### 🔹 Platform Outage Detection
+### 4. Platform Outage Detection
 Even if delivery apps fail, workers are still protected.
 
-### 🔹 Smart Wallet
+### 5. Smart Wallet
 Payouts are stored and can be reused for **future premiums**.
